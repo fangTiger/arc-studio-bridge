@@ -1,0 +1,16 @@
+# 依赖与构建产物
+node_modules/
+dist/
+contracts/out/
+contracts/cache/
+
+# 环境变量（不要提交）
+.env
+.env.*
+
+# Arc Studio 沙盒运行日志
+traces.jsonl
+console.jsonl
+
+# 系统文件
+.DS_Store
